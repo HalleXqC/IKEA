@@ -5,18 +5,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Practice 18</title>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animate.css">
         <script src="https://kit.fontawesome.com/aacff25297.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <section class="nav" id="nav_id">
             <ul class="nav_ul">
                 <li class="li1"><a href="#"><i class="fas fa-bars"></i></a></li>
-                <li class="li2">
+                <li class="li2 wow animate__backInLeft">
                     
                 </li>
                 <li class="li3">
                     <ul>
-                        <li><a href="#">Товары</a></li>
+                        <li class="wow animate__bounce"><a href="#">Товары</a></li>
                         <li><a href="#">Комнаты</a></li>
                         <li><a href="#">Вдохновение</a></li>
                         <li><a href="#">Услуги</a></li>
@@ -376,5 +377,11 @@
             </div>
             
         </footer>
+
+
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
     </body>
 </html>
